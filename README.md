@@ -37,3 +37,11 @@ Row-level locking using SELECT ... FOR UPDATE
 Proper relational database design
 Error handling for invalid links and duplicate booking
 Environment-based configuration
+
+
+ API Endpoints
+
+ `POST /meetings` – Create meeting  
+ `POST /meetings/:id/slots` – Add time slots  
+ `GET /book/:link` – View slots  
+ `POST /book/:link` – Confirm booking  
